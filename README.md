@@ -12,13 +12,13 @@ Preprocessing <br />
 1. Gather data training dan testing dengan ukuran gambar 250x250 <br />
 2. Normalisasi dataset <br />
 3. Membuat label encoder <br />
-*Model 1 <br />
+**Model 1 <br />
 1. Model menggunakan MaxPooling 2D dan GlobalMaxpooling2D <br />
 2. Loss = binary cossentropy <br />
 3. Optimizer = Adam <br />
 4. Learning rate = 0,0001 <br />
 5. Epoch = 10 <br />
-*Model 2 <br />
+**Model 2 <br />
 1. Model menggunakan AveragePooling2D dan GlobalAveragePooling2D <br />
 2. Loss = binary cossentropy <br />
 3. Optimizer = Adam <br />
@@ -31,7 +31,7 @@ Preprocessing menggunakan Image Data Generator yang terdiri dari : <br />
 3. Color Mode
 4. Shuffle
 5. Class Mode
-*Model 1 <br />
+**Model 1 <br />
 1. Model menggunakan MaxPooling 2D dan GlobalMaxpooling2D <br />
 2. Menggunakan dropout dan Batch Normalization <br />
 3. Activation = softmax
@@ -40,7 +40,7 @@ Preprocessing menggunakan Image Data Generator yang terdiri dari : <br />
 6. Learning rate = 0,0001 <br />
 7. Epoch = 100 <br />
 8. Callback = ReduceLROnplateau <br />
-*Model 2 <br />
+**Model 2 <br />
 1. Model menggunakan AveragePooling2D dan GlobalAveragePooling2D <br />
 2. Menggunakan dropout dan Batch Normalization <br />
 3. Activation = softmax
