@@ -53,3 +53,35 @@ c. Model 2 <br />
 - Learning rate = 0,0001 <br />
 - Epoch = 100 <br />
 - Callback = ReduceLROnplateau <br />
+
+## Modul 4 <br />
+a. Preprocessing menggunakan Image Data Generator yang terdiri dari : <br />
+- Resize
+- Rescaling
+- Color Mode
+- Shuffle
+- Class Mode <br />
+
+b. Model 1 Hparam <br />
+- Model menggunakan MaxPooling 2D <br />
+- Menggunakan Batch Normalization <br />
+- Unit = 32 <br />
+- Dropout = 0,2 dan 0,4 <br />
+- Activation = softmax <br />
+- Loss = categorical cossentropy <br />
+- Optimizer = Adam, sgd <br />
+- Learning rate = 0,001 <br />
+- Epoch = 25 <br />
+- Callback = ReduceLROnplateau <br />
+
+c. Model 2 Hparam<br />
+- Model menggunakan AveragePooling2D <br />
+- Menggunakan Batch Normalization <br />
+- Unit = 64 <br />
+- Dropout = 0,3 dan 0,5 <br />
+- Activation = softmax <br />
+- Loss = categorical cossentropy <br />
+- Optimizer = Adam dan Adadelta <br />
+- Learning rate = 0,0001 <br />
+- Epoch = 25 <br />
+- Callback = ReduceLROnplateau <br />
