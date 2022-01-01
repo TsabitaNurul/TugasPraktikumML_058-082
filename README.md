@@ -85,3 +85,33 @@ c. Model 2 Hparam<br />
 - Learning rate = 0,0001 <br />
 - Epoch = 25 <br />
 - Callback = ReduceLROnplateau <br />
+
+## Modul 5 <br />
+a. Preprocessing menggunakan Image Data Generator yang terdiri dari : <br />
+- Resize
+- Rescaling
+- Color Mode
+- Shuffle
+- Class Mode <br />
+
+b. Model 1 Pretrained <br />
+- Model menggunakan VGG16 <br />
+- Menggunakan Batch Normalization <br />
+- Unit = 256 <br />
+- Dropout = 0,4 <br />
+- Activation = softmax <br />
+- Loss = categorical cossentropy <br />
+- Optimizer = Adam, sgd <br />
+- Epoch = 100 <br />
+- Callback = ReduceLROnplateau <br />
+
+c. Model 2 Pretrained<br />
+- Model menggunakan ResNet50 <br />
+- Menggunakan Batch Normalization <br />
+- Unit = 128 <br />
+- Dropout = 0,6 <br />
+- Activation = softmax <br />
+- Loss = categorical cossentropy <br />
+- Optimizer = Adam<br />
+- Epoch = 100 <br />
+- Callback = ReduceLROnplateau <br />
