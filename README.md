@@ -1,7 +1,8 @@
 # TugasPraktikumML_058-082
 Anggota Kelompok : <br />
 Tsabita Nurul Izzah - 201810370311082 <br />
-Ulfa Zakiatul Mardhiah - 201810370311058 
+Ulfa Zakiatul Mardhiah - 201810370311058 <br/>
+Sprint Project : https://github.com/TsabitaNurul/TugasPraktikumML_058-082/projects/1 <br />
 ## Sumber Referensi <br />
 Dataset           : https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria  <br />
 Artikel Rujukan   : http://dx.doi.org/10.26760/elkomika.v9i2.306 <br />
